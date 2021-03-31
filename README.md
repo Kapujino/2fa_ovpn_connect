@@ -2,6 +2,11 @@
 
 Script to generate 2FA code and use it with a fixed password to connect to openvpn
 
+## DEPENDENCIES
+
+* networkmanager
+* oathtool
+
 ## USAGE
 
 * edit `VPN_CON_NAME` with the networkmanager connection name
