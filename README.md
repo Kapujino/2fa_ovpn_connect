@@ -9,7 +9,7 @@ Script to generate 2FA code and use it with a fixed password to connect to openv
 
 ## USAGE
 
-* edit `VPN_CON_NAME` with the networkmanager connection name
-* edit `FIX_PW` with your fixed password
-* edit `SECRET` with your 2fa secret
-* run the script with either `connect` or `disconnect` as parameter
+* edit `CONNECTIONNAME` with the networkmanager connection name
+* edit `FIXED_PASSWORD` with your fixed password
+* edit `2FA_SECRET` with your 2fa secret
+* run the script (it will connect when the VPN connection is not established and vice versa)
